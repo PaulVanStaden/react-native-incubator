@@ -1,7 +1,8 @@
 # React Native - The cool parts
 
 ## Reactyness -> Alex
-- Why and what is a virtual DOM? 
+- What is React.js?
+- Why use it and what is a virtual DOM?
 - How state is used to control when your components modify the Virtual DOM. 
 - When state is updated it's not synchronous
 Component Lifecycle - constructor, componentWillMount, componentDidMount, componentWillUpdate, componentDidUpdate
