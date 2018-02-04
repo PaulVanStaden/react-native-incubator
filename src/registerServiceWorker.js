@@ -103,11 +103,3 @@ function checkValidServiceWorker(swUrl) {
             console.log('No internet connection found. App is running in offline mode.');
         });
 }
-
-export function unregister() {
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.ready.then(registration => {
-            registration.unregister();
-        });
-    }
-}
